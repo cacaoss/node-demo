@@ -1,1 +1,5 @@
-console.log("Hello World!");
+const helloText = "Hello World ZZH";
+console.log(helloText);
+
+module.exports=helloText;
+
