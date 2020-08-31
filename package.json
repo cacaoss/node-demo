@@ -4,7 +4,7 @@
   "description": "node-demo",
   "main": "index.js",
   "scripts": {
-	"start":"nodemon ./HelloWorld",
+    "start": "nodemon ./HelloWorld",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/cacaoss/node-demo/issues"
   },
-  "homepage": "https://github.com/cacaoss/node-demo#readme"
+  "homepage": "https://github.com/cacaoss/node-demo#readme",
+  "dependencies": {
+    "sequelize": "^6.3.4",
+    "sqlite3": "^5.0.0"
+  }
 }
